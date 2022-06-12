@@ -40,7 +40,7 @@ class Parameters(object):
             "step_summaries": 100,  # to turn off make it None
             # General settings
             "seed": 2020,
-            "max_epochs": 1000,
+            "max_epochs": 120,
             "weight_decay": 1,
         }
 
@@ -100,8 +100,8 @@ class SchedulerSettings:
         """
         scheduler = {
             "name": RESTARTS_SCHEDULER,
-            "initial_learning_rate": 1e-5,  # 2e-3
-            "first_decay_steps": 80,  # Important: convertable param from epoch to iteration
+            "initial_learning_rate": 1e-5,
+            "first_decay_steps": 80,
             "t_mul": 2.0,
             "m_mul": 1.0,
             "alpha": 1e-6,
