@@ -1,37 +1,5 @@
-# Dynamic objects detection in LiDAR
-
-[![MIT License](https://img.shields.io/badge/License-MIT-green.svg)](https://github.com/Dtananaev/lidar_dynamic_objects_detection/blob/master/LICENSE.md) 
-
-## The result of network (click on the image below)
-
-[![result](https://github.com/Dtananaev/lidar_dynamic_objects_detection/blob/master/pictures/result.png)](https://youtu.be/f_HZg9Cq-h4)
-The network weights could be loaded [weight](https://drive.google.com/file/d/1m8N5m2WXATgFNw88BRqEbUieiyV7p3S0/view?usp=sharing).
-## Installation
-For ubuntu 18.04 install necessary dependecies:
-```
-sudo apt update
-sudo apt install python3-dev python3-pip python3-venv
-```
-Create virtual environment and activate it:
-```
-python3 -m venv --system-site-packages ./venv
-source ./venv/bin/activate
-```
-Upgrade pip tools:
-```
-pip install --upgrade pip
-```
-Install tensorflow 2.0  (for more details check the tensofrolow install tutorial: [tensorflow](https://www.tensorflow.org/install/pip))
-```
-pip install --upgrade tensorflow-gpu
-```
-Clone this repository and then install it:
-```
-cd lidar_dynamic_objects_detection
-pip install -r requirements.txt
-pip install -e .
-```
-This should install all the necessary packages to your environment.
+# SEP769 Deep Learning Project - Group 5 - LiDAR Sweeps
+The code for this project is separated into different folders based on different stages of the project. The final approach which the team selected is based upon the lidar_dynamic_objects_detection method introduced by Dtananaev in his GitHub repository. The team has modified the original model and trained several models with different combinations of hyperparameters. The final detection results are saved in the Final Detection Results folder.
 
 ## The method
 
