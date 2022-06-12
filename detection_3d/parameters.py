@@ -100,7 +100,7 @@ class SchedulerSettings:
         """
         scheduler = {
             "name": RESTARTS_SCHEDULER,
-            "initial_learning_rate": 1e-4,  # 2e-3
+            "initial_learning_rate": 1e-5,  # 2e-3
             "first_decay_steps": 80,  # Important: convertable param from epoch to iteration
             "t_mul": 2.0,
             "m_mul": 1.0,
