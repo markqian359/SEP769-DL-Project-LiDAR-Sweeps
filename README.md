@@ -1,7 +1,7 @@
 # SEP769 Deep Learning Project - Group 5 - LiDAR Sweeps
 The code for this project is separated into different folders based on different stages of the project. The final approach which the team selected is based upon the lidar_dynamic_objects_detection method introduced by Dtananaev in his GitHub repository. The team has modified the original model and trained several models with different combinations of hyperparameters. The final detection results are saved in the Final Detection Results folder.
 
-## The method
+## Description of the Method of the Final Approach
 
 The lidar point cloud represented as top view image where each pixel of the image corresponds to 12.5x12.5 cm. For each grid cell
 we project random point and get the height and intensity
