@@ -1,9 +1,0 @@
-*.pyc
-*~
-*.txt
-dataset
-*-INFO
-log
-inference
-*.bin
-
